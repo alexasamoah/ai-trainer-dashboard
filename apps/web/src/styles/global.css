@@ -163,6 +163,37 @@ td {
   animation: floaty 4s ease-in-out infinite;
 }
 
+.dashboard-footer {
+  margin: 1.25rem auto 0;
+  max-width: 720px;
+  padding: 0.9rem 1rem;
+  text-align: center;
+  border: 1px solid #704214;
+  border-radius: 14px;
+  background: rgba(255, 245, 214, 0.82);
+  box-shadow: 0 8px 24px rgba(78, 49, 22, 0.14);
+}
+
+.dashboard-footer p {
+  margin: 0;
+}
+
+.dashboard-footer p + p {
+  margin-top: 0.35rem;
+}
+
+.dashboard-footer a {
+  display: inline-block;
+  margin-top: 0.35rem;
+  color: #5a3a1d;
+  font-weight: 600;
+  text-decoration-color: #8e5d2f;
+}
+
+.dashboard-footer a:hover {
+  color: #3e2a14;
+}
+
 @keyframes pulse {
   0%,
   100% { transform: scale(1); }
