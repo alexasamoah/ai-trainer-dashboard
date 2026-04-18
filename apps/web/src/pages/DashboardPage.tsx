@@ -82,7 +82,7 @@ export function DashboardPage() {
         </SectionCard>
       </div>
 
-<footer className="dashboard-footer">
+<footer className="dashboard-footer" style={{ textAlign: "center" }}>
   <p>Disclaimer: For demo purposes only.</p>
   <p>
     <a
