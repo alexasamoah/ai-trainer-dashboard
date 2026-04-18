@@ -81,6 +81,14 @@ export function DashboardPage() {
           <EducationPanel />
         </SectionCard>
       </div>
+
+      <footer className="dashboard-footer">
+        <p>Disclaimer: For demo purposes only.</p>
+        <p>View source code</p>
+        <a href="https://github.com/alexasamoah/ai-trainer-dashboard" target="_blank" rel="noreferrer">
+          github.com/alexasamoah/ai-trainer-dashboard
+        </a>
+      </footer>
     </main>
   );
 }
