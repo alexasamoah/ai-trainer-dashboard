@@ -184,3 +184,21 @@ td {
   .kpi-row { grid-template-columns: 1fr; }
   .two-column { grid-template-columns: 1fr; }
 }
+
+.dashboard-footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #2f1a0f;
+}
+
+.dashboard-footer a {
+  display: inline-block;
+  margin-top: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #5a3a1d;
+}
+
+.dashboard-footer a:hover {
+  text-decoration: underline;
+}
